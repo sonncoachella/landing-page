@@ -1,0 +1,25 @@
+
+h2{
+font-family: monospace;
+border-right: 4px solid;
+width: 15ch;
+white-space: nowrap;
+overflow: hidden;
+animation: typing 2.2s steps(12) infinite,
+blinking 0,5s infinite step-end alternate;
+
+}
+
+@keyframes typing{
+from{
+    width: 0;
+}
+}
+
+@keyframes blinking{
+50%{
+
+    border-color: transparent;
+}
+}
+
